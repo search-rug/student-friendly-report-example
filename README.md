@@ -52,7 +52,7 @@ The purpose of this job is to upload the designite jar to execute the tool in th
 
 ---
 #### **report**
-**actions used**: actions/checkout@v3, actions/setup-java@v3, actions/download-artifact@v3, robinraju/release-downloader@v1.4, montudor/action-zip@v1, tupac-rocher/mvn-student-friendly-report@v2.2, thollander/actions-comment-pull-request@v1
+**actions used**: actions/checkout@v3, actions/setup-java@v3, actions/download-artifact@v3, robinraju/release-downloader@v1.4, montudor/action-zip@v1, search-rug/student-friendly-report@v1.1, thollander/actions-comment-pull-request@v1
 
 **description**: 
 
