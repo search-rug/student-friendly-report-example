@@ -13,12 +13,21 @@ The feedback report section can be seen [here](#feedback-report)
 
 ## Usage
 
-Fork and Clone this repository. You will be able to generate a feedback report by submitting a Pull Request.
+The simplest way to use the workflow is to:
+1. Create a new repository
+2. Copy the content of this repository into the new one
+3. Submit a commit to the main branch
+4. Create a Pull Request:
+   - Create a new branch
+   - Change the code
+   - Commit to the new branch
+   - Create a Pull Request from the new branch to the main one
+   
  
- In order to get this feedback report you need to add configurations to your Maven project:
- - [Workflow configuration](#workflow-configuration): The workflow configuration file for Github Actions is report.yml
- - [Maven configuration](#maven-configuration): Add 2 plugins to you pom.xml configuration file
- - [Checkstyle configuration](#checkstyle-configuration): Add the Checkstyle configuration file for the Checkstyle Maven plugin from this repository: checkstyle.xml
+ Alternatively you can set up your repository from scratch by adding configurations to your Maven project:
+ - [ROOT/.github/workflows/report.yml](#workflow-configuration): The workflow configuration file for GitHub Actions
+ - [ROOT/pom.xml](#maven-configuration): Add 2 plugins to your pom.xml configuration file
+ - [ROOT/checkstyle.xml](#checkstyle-configuration): Add the Checkstyle configuration file for the Checkstyle Maven plugin
  
 ### **Workflow configuration**
 
